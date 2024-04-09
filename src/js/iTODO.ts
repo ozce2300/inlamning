@@ -1,5 +1,9 @@
-export interface todo {
+/**
+ * Author: Özgür Celik
+ * Email: ozce2300@student.miun.se
+*/
+export interface Todo {
     task:string
-    completerd:boolean
+    completed:boolean
     priority: number
 }
